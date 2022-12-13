@@ -5,18 +5,12 @@ import com.sambhav.srp.common.SearchSuggestion;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created By: Sambhav
- * Created On: 13-08-2020 || 09:37 PM
- * Project Name: SingleResponsibilityPrinciple_Demo
- **/
+
 public class GoogleMainPage {
 
-    //This main page contains two elements/ components : 1) Search Icon/Box      2) Search Suggestion
-
     private WebDriver driver;
-    private SearchBox searchBox;
-    private SearchSuggestion searchSuggestion;
+    private final SearchBox searchBox;
+    private final SearchSuggestion searchSuggestion;
 
     public GoogleMainPage(final WebDriver driver) {
         this.driver = driver;
