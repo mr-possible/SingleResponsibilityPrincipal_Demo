@@ -5,12 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-/**
- * Created By: Sambhav
- * Created On: 13-08-2020 || 06:02 PM
- * Project Name: SingleResponsibilityPrinciple_Demo
- **/
-
 public class SearchBox extends AbstractComponent {
 
     @FindBy(name = "q")
