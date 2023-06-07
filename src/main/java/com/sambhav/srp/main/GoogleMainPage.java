@@ -1,5 +1,6 @@
 package com.sambhav.srp.main;
 
+import com.sambhav.srp.common.CookiePromptHandler;
 import com.sambhav.srp.common.SearchBox;
 import com.sambhav.srp.common.SearchSuggestion;
 import org.openqa.selenium.WebDriver;

@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class NavigationBar extends AbstractComponent {
 
-    @FindBy(id = "hdtb-msb-vis")
+    @FindBy(id = "hdtb-msb")
     private WebElement navbar;
 
     @FindBy(linkText = "News")
