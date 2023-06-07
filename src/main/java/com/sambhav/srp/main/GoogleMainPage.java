@@ -1,5 +1,6 @@
 package com.sambhav.srp.main;
 
+import com.sambhav.srp.common.CookiePromptHandler;
 import com.sambhav.srp.common.SearchBox;
 import com.sambhav.srp.common.SearchSuggestion;
 import org.openqa.selenium.WebDriver;
@@ -23,10 +24,10 @@ public class GoogleMainPage {
     }
 
     public SearchBox getSearchBox() {
-        return searchBox;
+        return this.searchBox;
     }
 
     public SearchSuggestion getSearchSuggestion() {
-        return searchSuggestion;
+        return this.searchSuggestion;
     }
 }
